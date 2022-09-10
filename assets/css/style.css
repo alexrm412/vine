@@ -1,0 +1,146 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height:150%;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container__desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    color: #fff;
+}
+.header__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: row;
+
+}
+.nav__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 25%;
+    height: 46px;
+    margin: 0 auto;
+}
+.nav__link-f{
+    border-left: none;
+}
+.nav__link-l{
+    border-right: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99862A;
+    padding: 15px 30px;
+    width: 203px;
+    margin: 15px;
+    margin-top: calc(50vh);
+}
+.intro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/assets/images/vine.svg) center no-repeat;
+    background-size: cover;
+}
+.description{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+}
+.description__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #C4C4C4;
+    height: 75vh;
+    width: 60%;
+}
+.desc{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.hr{
+    border: 1px solid #FFFFFF;
+    width: 160px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    Size: 36px;
+    line-height: 54px;
+}
+.review{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E3C4;
+}
+.review__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 60%;
+    border: 1px solid #998431;
+}
+.title{
+
+}
+
+p{
+    color: black;
+    size: 14px;
+    line-height: 21px;
+}
+.review__table{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
